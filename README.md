@@ -12,7 +12,7 @@ Designed as a portfolio project, it highlights modern data engineering practices
 
 The project follows the **Medallion Architecture**, consisting of three layers: **Bronze, Silver, and Gold**.
 
-![Databricks Medallion Data Pipeline](<escape>docx/Databricks_Medallion_Data Pipeline.png</escape>)
+![Databricks Medallion Data Pipeline](<docx/Databricks_Medallion_Data Pipeline.png>)
 
 1. **Bronze Layer:** Stores raw data ingested from CRM and ERP CSV files into Delta tables in Databricks.
 2. **Silver Layer:** Applies data cleansing, standardization, deduplication, validation, and integration to improve data quality.
